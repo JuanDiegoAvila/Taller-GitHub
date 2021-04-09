@@ -8,6 +8,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TallerGitHub" />
+        android:theme="@style/Theme.TallerGitHub">
+        <activity
+            android:name=".MainActivity1"
+            android:label="@string/title_activity_main1"
+            android:theme="@style/Theme.TallerGitHub.NoActionBar"></activity>
+    </application>
 
 </manifest>
